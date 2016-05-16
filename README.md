@@ -3,7 +3,7 @@ gulp-git-push
 
 Pushes **all committed changes** to a remote repository.
 
-It will push all committed changes (you can use `git.commit` from [`gulp-git`(https://www.npmjs.com/package/gulp-git) for that] to the specified repository.
+It will push all committed changes (you can use `git.commit` from [`gulp-git`](https://www.npmjs.com/package/gulp-git) for that to the specified repository.
 
 > [Why use `gulp-git-push`?](https://medium.com/@ferreiratiago/its-been-a-while-since-we-started-to-move-our-build-system-from-grunt-to-gulp-7571a6a2991#.lp48nflml)
 
