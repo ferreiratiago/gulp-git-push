@@ -20,11 +20,11 @@ module.exports = function (options) {
     objectAssign(opt, options);
 
     function modifyContents(file, cb) {
-        if (file.isNull()) {
+        if (file && file.isNull()) {
             return cb(null, file);
         }
 
-        if (file.isStream()) {
+        if (file && file.isStream()) {
             return cb(new Error('Streams not supported'), file);
         }
 
